@@ -42,6 +42,10 @@ public class BasePage {
 							+ dateFormat.format(cal.getTime()) + ".html",	false);
 	}
 
+	public void newMethod() {
+		System.out.println("It is new method");
+	}
+	
 	@BeforeMethod
 	public void startReport(Method result) {
 		test = extent.startTest(result.getName());
