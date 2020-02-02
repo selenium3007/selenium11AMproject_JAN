@@ -1,0 +1,10 @@
+package com.durgasoft.ecommerce.basepage;
+
+public class BasePage {
+	
+	public void browserLaunch(String browser, String url) {
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+#Browser Type
+browser=chrome
+
+#Page URL's
+prodURL=http://seleniumbymahesh.com/HMS
+testURL=test-1//seleniumbymahesh.com/HMS
+excelPath=D:\\LiveProject_21_Jan_11AM\\selenium_maven\\testdata\\login.xlsx
+
+!LogLogin Locators
+usernameLoc username
+passwordLoc:password
+loginLoc = submit
+
+#User Credentials
+username=admin
+password=admin

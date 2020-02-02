@@ -1,0 +1,139 @@
+****TC001_CustomerRegistration Started******
+****TC001_CustomerRegistration Started******
+****TC001_CustomerRegistration Ended******
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> link text: Sign in]
+Entering email id:qatest2635@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: email_create]
+Clicking on create an account:[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: SubmitCreate]
+Verifying customer info page by using object: [[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> xpath: //h1[text()='Create an account']]
+Clicking on Mr Radio button by using object: [[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: id_gender1]
+Entering first name by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: customer_firstname]
+Entering last name by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: customer_lastname]
+Entering password by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: passwd]
+Selected a day by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: days]
+Selected a month by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: months]
+Selected a year by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: years]
+Entering address by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: address1]
+Entering state by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: city]
+Selected a state by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: id_state]
+Entering zipcode by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: postcode]
+Selected a country by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: id_country]
+Entering mobile number by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: phone_mobile]
+Entering aliasing Address by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> id: alias]
+Clicking on Register :Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+Verified My account page by using object :[[FirefoxDriver: firefox on WINDOWS (73a70086-4c55-4678-8581-68542ad2f429)] -> xpath: //h1[text()='My account']]
+Clicked on SignOut button with object : Proxy element for: DefaultElementLocator 'By.linkText: Sign out'
+****TC001_CustomerRegistration Ended******
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:Proxy element for: DefaultElementLocator 'By.linkText: Sign in'
+Entering email id:qatest5324@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: email_create]
+Clicking on create an account:[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: SubmitCreate]
+Verifying customer info page by using object: [[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> xpath: //h1[text()='Create an account']]
+Clicking on Mr Radio button by using object: [[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: id_gender1]
+Entering first name by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: customer_firstname]
+Entering last name by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: customer_lastname]
+Entering password by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: passwd]
+Selected a day by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: days]
+Selected a month by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: months]
+Selected a year by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: years]
+Entering address by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: address1]
+Entering state by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: city]
+Selected a state by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: id_state]
+Entering zipcode by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: postcode]
+Selected a country by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: id_country]
+Entering mobile number by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: phone_mobile]
+Entering aliasing Address by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> id: alias]
+Clicking on Register :Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+Verified My account page by using object :[[FirefoxDriver: firefox on WINDOWS (d7077135-8f83-45f1-8ac7-4beea4e2ae35)] -> xpath: //h1[text()='My account']]
+Clicked on SignOut button with object : Proxy element for: DefaultElementLocator 'By.linkText: Sign out'
+****TC001_CustomerRegistration Ended******
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> link text: Sign in]
+Entering email id:qatest3504@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: email_create]
+Clicking on create an account:[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: SubmitCreate]
+Verifying customer info page by using object: [[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> xpath: //h1[text()='Create an account']]
+Clicking on Mr Radio button by using object: [[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: id_gender1]
+Entering first name by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: customer_firstname]
+Entering last name by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: customer_lastname]
+Entering password by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: passwd]
+Selected a day by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: days]
+Selected a month by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: months]
+Selected a year by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: years]
+Entering address by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: address1]
+Entering state by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: city]
+Selected a state by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: id_state]
+Entering zipcode by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: postcode]
+Selected a country by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: id_country]
+Entering mobile number by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: phone_mobile]
+Entering aliasing Address by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> id: alias]
+Clicking on Register :Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+Verified My account page by using object :[[FirefoxDriver: firefox on WINDOWS (b41a7bea-2e1e-460d-aab2-23ff251a1d32)] -> xpath: //h1[text()='My account']]
+Clicked on SignOut button with object : Proxy element for: DefaultElementLocator 'By.linkText: Sign out'
+****TC001_CustomerRegistration Ended******
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> link text: Sign in]
+Entering email id:qatest5026@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: email_create]
+Clicking on create an account:[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: SubmitCreate]
+Verifying customer info page by using object: [[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> xpath: //h1[text()='Create an account']]
+Clicking on Mr Radio button by using object: [[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: id_gender1]
+Entering first name by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: customer_firstname]
+Entering last name by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: customer_lastname]
+Entering password by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: passwd]
+Selected a day by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: days]
+Selected a month by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: months]
+Selected a year by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: years]
+Entering address by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: address1]
+Entering state by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: city]
+Selected a state by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: id_state]
+Entering zipcode by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: postcode]
+Selected a country by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: id_country]
+Entering mobile number by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: phone_mobile]
+Entering aliasing Address by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> id: alias]
+Clicking on Register :Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+Verified My account page by using object :[[FirefoxDriver: firefox on WINDOWS (8ff263c6-4117-4830-86e6-4fd3c1352161)] -> xpath: //h1[text()='My account']]
+Clicked on SignOut button with object : Proxy element for: DefaultElementLocator 'By.linkText: Sign out'
+****TC001_CustomerRegistration Ended******
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:[[FirefoxDriver: firefox on WINDOWS (cf39c02e-542b-4fe9-a8e1-973ef3796c49)] -> link text: Sign in]
+Entering email id:qatest7955@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (cf39c02e-542b-4fe9-a8e1-973ef3796c49)] -> id: email_create]
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:[[FirefoxDriver: firefox on WINDOWS (bd692bba-5111-472b-b0af-a489cc1a2419)] -> link text: Sign in]
+Entering email id:qatest3006@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (bd692bba-5111-472b-b0af-a489cc1a2419)] -> id: email_create]
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:[[FirefoxDriver: firefox on WINDOWS (359f9f0a-bd82-49c3-abc4-6b1e1eca9f77)] -> link text: Sign in]
+Entering email id:qatest9331@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (359f9f0a-bd82-49c3-abc4-6b1e1eca9f77)] -> id: email_create]
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:[[FirefoxDriver: firefox on WINDOWS (359f9f0a-bd82-49c3-abc4-6b1e1eca9f77)] -> link text: Sign in]
+Entering email id:qatest9846@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (359f9f0a-bd82-49c3-abc4-6b1e1eca9f77)] -> id: email_create]
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:[[FirefoxDriver: firefox on WINDOWS (359f9f0a-bd82-49c3-abc4-6b1e1eca9f77)] -> link text: Sign in]
+Entering email id:qatest6955@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (359f9f0a-bd82-49c3-abc4-6b1e1eca9f77)] -> id: email_create]
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:[[FirefoxDriver: firefox on WINDOWS (359f9f0a-bd82-49c3-abc4-6b1e1eca9f77)] -> link text: Sign in]
+Entering email id:qatest637@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (359f9f0a-bd82-49c3-abc4-6b1e1eca9f77)] -> id: email_create]
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:[[FirefoxDriver: firefox on WINDOWS (b1c1e178-a8b4-43e6-bdf6-98c59dbc9cd9)] -> link text: Sign in]
+Entering email id:qatest9815@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (b1c1e178-a8b4-43e6-bdf6-98c59dbc9cd9)] -> id: email_create]
+****TC001_CustomerRegistration Started******
+Clicked on SignIN button with the object:[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> link text: Sign in]
+Entering email id:qatest6195@gmail.comusing object[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: email_create]
+Clicking on create an account:[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: SubmitCreate]
+Verifying customer info page by using object: [[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> xpath: //h1[text()='Create an account']]
+Clicking on Mr Radio button by using object: [[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: id_gender1]
+Entering first name by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: customer_firstname]
+Entering last name by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: customer_lastname]
+Entering password by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: passwd]
+Selected a day by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: days]
+Selected a month by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: months]
+Selected a year by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: years]
+Entering address by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: address1]
+Entering state by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: city]
+Selected a state by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: id_state]
+Entering zipcode by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: postcode]
+Selected a country by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: id_country]
+Entering mobile number by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: phone_mobile]
+Entering aliasing Address by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> id: alias]
+Clicking on Register :Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+Verified My account page by using object :[[FirefoxDriver: firefox on WINDOWS (134b52ab-7f05-4628-8589-479483462e71)] -> xpath: //h1[text()='My account']]
+Clicked on SignOut button with object : Proxy element for: DefaultElementLocator 'By.linkText: Sign out'
+****TC001_CustomerRegistration Ended******

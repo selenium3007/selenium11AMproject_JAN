@@ -1,0 +1,5 @@
+package com.durgasoft.ecommerce.basepage;
+
+public class BasePage {
+
+}

@@ -1,0 +1,14 @@
+package com.durgasoft.ecommerce.homepage;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+
+public class TC001_CustomerRegistration {
+  @Test
+  public void f() {
+  }
+  @BeforeTest
+  public void beforeTest() {
+  }
+
+}

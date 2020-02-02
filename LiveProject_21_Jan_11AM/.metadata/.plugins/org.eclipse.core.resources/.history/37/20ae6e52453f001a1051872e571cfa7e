@@ -1,0 +1,32 @@
+package com.durgasoft.selenium.testNG;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeTest;
+
+public class MouseNkeboard {
+
+	public WebDriver driver;
+
+	@Test(enabled = false)
+	public void dragNdrop() {
+		driver.switchTo().frame(0);
+		WebElement drg = driver.findElement(By.id("draggable"));
+		WebElement drop = driver.findElement(By.id("droppable"));
+		Actions a = new Actions(driver);
+		// a.dragAndDrop(drg, drop).perform();
+		a.clickAndHold(drg).moveToElement(drop).release().build().perform();
+	}
+
+	@BeforeTest
+	public void beforeTest() {
+		driver = new FirefoxDriver();
+		driver.get("https://jqueryui.com/droppable/");
+		driver.manage().window().maximize();
+	}
+
+}

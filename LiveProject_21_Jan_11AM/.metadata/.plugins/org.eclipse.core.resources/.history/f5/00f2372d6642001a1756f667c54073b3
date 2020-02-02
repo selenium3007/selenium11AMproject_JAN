@@ -1,0 +1,33 @@
+package com.durgasoft.ecommerce.pageUI;
+
+import static org.testng.Assert.assertEquals;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.durgasoft.ecommerce.basepage.BasePage;
+
+public class CreateLoginAccount extends BasePage{
+	
+	@FindBy(linkText="Sign in") WebElement linkSignIN;
+	@FindBy(id="email_create") WebElement txtEmail;
+	@FindBy(id="SubmitCreate") WebElement btnCreateAnAccount;
+	@FindBy(xpath="//h1[text()='Create an account']") WebElement txtCreateAnAccount;
+	
+	public CreateLoginAccount(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
+
+	public void createAccount() throws Exception{
+		linkSignIN.click();
+		txtEmail.sendKeys(getData("firstname")+getData("lastname")+randomNumber()+getData("domainname"));
+		btnCreateAnAccount.click();
+		Thread.sleep(8000);
+		assertEquals(txtCreateAnAccount.getText(), "CREATE AN ACCOUNT");
+	}
+
+	
+
+}

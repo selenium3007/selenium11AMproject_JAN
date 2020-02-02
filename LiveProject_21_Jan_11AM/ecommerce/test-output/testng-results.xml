@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54611" started-at="2020-01-31T07:12:46Z" finished-at="2020-01-31T07:13:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54611" started-at="2020-01-31T07:12:46Z" finished-at="2020-01-31T07:13:41Z">
+      <class name="com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration@25a65b77]" name="beforeTest" is-config="true" duration-ms="19233" started-at="2020-01-31T07:12:46Z" finished-at="2020-01-31T07:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration@25a65b77]" name="startReport" is-config="true" duration-ms="11" started-at="2020-01-31T07:13:06Z" finished-at="2020-01-31T07:13:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration.customerRegistration() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="customerRegistration()[pri:0, instance:com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration@25a65b77]" name="customerRegistration" duration-ms="33152" started-at="2020-01-31T07:13:06Z" finished-at="2020-01-31T07:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerRegistration -->
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration@25a65b77]" name="endReport" is-config="true" duration-ms="1" started-at="2020-01-31T07:13:39Z" finished-at="2020-01-31T07:13:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerRegistration status=SUCCESS method=TC001_CustomerRegistration.customerRegistration()[pri:0, instance:com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration@25a65b77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration@25a65b77]" name="startReport" is-config="true" duration-ms="1" started-at="2020-01-31T07:13:39Z" finished-at="2020-01-31T07:13:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration.verifyLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration@25a65b77]" name="verifyLogin" duration-ms="2" started-at="2020-01-31T07:13:39Z" finished-at="2020-01-31T07:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration@25a65b77]" name="endReport" is-config="true" duration-ms="1" started-at="2020-01-31T07:13:39Z" finished-at="2020-01-31T07:13:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_CustomerRegistration.verifyLogin()[pri:0, instance:com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration@25a65b77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration@25a65b77]" name="endTest" is-config="true" duration-ms="2161" started-at="2020-01-31T07:13:39Z" finished-at="2020-01-31T07:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

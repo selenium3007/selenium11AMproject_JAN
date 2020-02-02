@@ -1,0 +1,22 @@
+package com.durgasoft.ecommerce.homepage;
+
+import org.testng.annotations.Test;
+import com.durgasoft.ecommerce.basepage.BasePage;
+import com.durgasoft.ecommerce.pageUI.CreateLoginAccount;
+
+import org.testng.annotations.BeforeTest;
+
+public class TC001_CustomerRegistration extends BasePage {
+	@Test
+	public void customerRegistration() {
+		CreateLoginAccount login=new CreateLoginAccount();
+		login.createAccount();
+	}
+
+	@BeforeTest
+	public void beforeTest() throws Exception {
+		browserLaunch(getData("browser"), getData("url"));
+
+	}
+
+}

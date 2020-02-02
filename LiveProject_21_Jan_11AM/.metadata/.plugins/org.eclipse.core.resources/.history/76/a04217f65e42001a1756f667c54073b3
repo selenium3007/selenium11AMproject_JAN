@@ -1,0 +1,21 @@
+package com.durgasoft.ecommerce.homepage;
+
+import org.testng.annotations.Test;
+
+import com.durgasoft.ecommerce.basepage.BasePage;
+
+import org.testng.annotations.BeforeTest;
+
+public class TC001_CustomerRegistration extends BasePage{
+	@Test
+	public void customerRegistration() {
+	}
+
+	@BeforeTest
+	public void beforeTest() {
+		browserLaunch("firefox","http://automationpractice.com/index.php");
+	}
+
+	
+
+}

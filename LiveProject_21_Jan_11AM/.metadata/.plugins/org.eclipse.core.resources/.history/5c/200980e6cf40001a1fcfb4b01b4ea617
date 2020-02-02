@@ -1,0 +1,9 @@
+package com.durgasoft.selenium.testNG.iostreams;
+
+import org.testng.annotations.Test;
+
+public class ReadAllDataFromExcelFile {
+  @Test
+  public void f() {
+  }
+}

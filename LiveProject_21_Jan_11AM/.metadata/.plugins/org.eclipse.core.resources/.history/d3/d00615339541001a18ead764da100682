@@ -1,0 +1,13 @@
+package com.durgasoft.selenium.testNG.iostreams;
+
+import org.testng.annotations.Test;
+
+public class ReadDataFromExcelFileByExcel_API {
+  @Test
+  public void f() throws Exception{
+	 Excel_API e=new Excel_API("D:\\LiveProject_21_Jan_11AM\\selenium_maven\\testdata\\login.xlsx");
+	  System.out.println("Reading data from excel file by using col num row num");
+	  System.out.println(e.getCellData("Sheet1", 3, 2));
+	  
+  }
+}

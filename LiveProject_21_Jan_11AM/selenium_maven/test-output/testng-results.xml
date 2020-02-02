@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19393" started-at="2020-01-28T06:56:00Z" finished-at="2020-01-28T06:56:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19393" started-at="2020-01-28T06:56:00Z" finished-at="2020-01-28T06:56:19Z">
+      <class name="com.durgasoft.selenium.testNG.iostreams.HMS_Login_Excel_API">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.durgasoft.selenium.testNG.iostreams.HMS_Login_Excel_API@87f383f]" name="beforeTest" is-config="true" duration-ms="14445" started-at="2020-01-28T06:56:00Z" finished-at="2020-01-28T06:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="hms_Login()[pri:0, instance:com.durgasoft.selenium.testNG.iostreams.HMS_Login_Excel_API@87f383f]" name="hms_Login" duration-ms="4887" started-at="2020-01-28T06:56:14Z" finished-at="2020-01-28T06:56:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hms_Login -->
+      </class> <!-- com.durgasoft.selenium.testNG.iostreams.HMS_Login_Excel_API -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

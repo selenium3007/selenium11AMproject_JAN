@@ -1,0 +1,73 @@
+package com.durgasoft.ecommerce.pageUI;
+
+import static org.testng.Assert.assertEquals;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.durgasoft.ecommerce.basepage.BasePage;
+
+public class CreateLoginAccount extends BasePage{
+	@FindBy(linkText="Sign in") WebElement linkSignIN;
+	@FindBy(id="email_create") WebElement txtEmail;
+	@FindBy(id="SubmitCreate") WebElement btnCreateAnAccount;
+	@FindBy(xpath="//h1[text()='Create an account']") WebElement txtCreateAnAccount;
+	@FindBy(id="id_gender1") WebElement radioMr;
+	@FindBy(id="customer_firstname") WebElement txtFirstName;
+	@FindBy(id="customer_lastname")WebElement txtLastName;
+	@FindBy(id="passwd")WebElement txtPassword;
+	@FindBy(id="days")WebElement dropDownDays;
+	@FindBy(id="months")WebElement dropDownMonth;
+	@FindBy(id="years")WebElement dropDownYears;
+	@FindBy(id="address1") WebElement txtAddress1;
+	@FindBy(id="city")WebElement txtCity;
+	@FindBy(id="id_state")WebElement dropDownState;
+	@FindBy(id="postcode")WebElement txtZipCode;
+	@FindBy(id="id_country")WebElement dropDownCountry;
+	@FindBy(id="phone_mobile")WebElement txtMobileNo;
+	@FindBy(id="alias")WebElement txtAliasAddress;
+	@FindBy(id="submitAccount")WebElement btnRegister;
+	@FindBy(xpath="//h1[text()='My account']")WebElement txtMyAccount;
+	@FindBy(linkText = "Sign out")	WebElement btnSignOut;
+
+	public CreateLoginAccount(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
+
+	public void createAccount() throws Exception{
+		linkSignIN.click();
+		txtEmail.sendKeys(getData("firstname")+getData("lastname")
+																+randomNumber()+getData("domainname"));
+		btnCreateAnAccount.click();
+		Thread.sleep(8000);
+		assertEquals(txtCreateAnAccount.getText(), "CREATE AN ACCOUNT");
+		radioMr.click();
+		txtFirstName.sendKeys("sunny");
+		txtLastName.sendKeys("bunny");
+		txtPassword.sendKeys("abc@123");
+		selectOption(dropDownDays,3);
+		selectOption(dropDownMonth, 5);
+		selectOption(dropDownYears, 3);
+		txtAddress1.sendKeys("Hyderabad");
+		txtCity.sendKeys("Mumbai");
+		selectOption(dropDownState, 3);
+		txtZipCode.sendKeys("12345");
+		selectOption(dropDownCountry, 1);
+		txtMobileNo.sendKeys("1234567890");
+		txtAliasAddress.sendKeys("MP");
+		btnRegister.click();
+		Thread.sleep(5000);
+		assertEquals(txtMyAccount.getText(), "MY ACCOUNT");
+		Thread.sleep(5000);
+		btnSignOut.click();
+	}
+}
+
+
+
+
+
+
+

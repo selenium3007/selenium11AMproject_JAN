@@ -1,0 +1,55 @@
+package com.durgasoft.selenium.testNG;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeTest;
+
+public class MouseNkeboard {
+
+	public WebDriver driver;
+	public Actions a;
+
+	@Test(enabled = false)
+	public void dragNdrop() {
+		driver.switchTo().frame(0);
+		WebElement drg = driver.findElement(By.id("draggable"));
+		WebElement drop = driver.findElement(By.id("droppable"));
+		// a.dragAndDrop(drg, drop).perform();
+		a.clickAndHold(drg).moveToElement(drop).release().build().perform();
+	}
+
+	@Test(enabled = false)
+	public void resizeObject() {
+		driver.switchTo().frame(0);
+		WebElement drag = driver.findElement(By.xpath("//div[@id='resizable']/div[3]"));
+		// a.dragAndDropBy(drag, 200, 500).perform();
+		a.clickAndHold(drag).moveToElement(drag, 500, 50).release().build().perform();
+	}
+
+	@Test(enabled = false)
+	public void slider() {
+		driver.switchTo().frame(0);
+		WebElement drag = driver.findElement(By.xpath("//div[@id='slider']/span"));
+		// a.clickAndHold(drag).moveToElement(drag, 500, 0).release().build().perform();
+		a.dragAndDropBy(drag, 300, 0).perform();
+	}
+
+	@Test
+	public void rightClick() {
+		WebElement link = driver.findElement(By.linkText("Draggable"));
+		a.contextClick(link).perform();
+	}
+
+	@BeforeTest
+	public void beforeTest() {
+		driver = new FirefoxDriver();
+		driver.get("https://jqueryui.com/slider/");
+		a = new Actions(driver);
+		driver.manage().window().maximize();
+	}
+
+}

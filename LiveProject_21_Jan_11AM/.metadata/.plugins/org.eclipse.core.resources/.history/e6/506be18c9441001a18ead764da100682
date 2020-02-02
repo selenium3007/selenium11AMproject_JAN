@@ -1,0 +1,31 @@
+package com.durgasoft.selenium.testNG.iostreams;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Excel_API {
+	public FileInputStream fi=null;
+	public FileOutputStream fo=null;
+	public XSSFWorkbook w=null;
+	public XSSFSheet s=null;
+	public XSSFRow r=null;
+	public XSSFCell c=null;
+	String filePath;
+	
+	public Excel_API(String file)throws Exception {
+		this.filePath=file;
+		fi=new FileInputStream(filePath);
+		w=new XSSFWorkbook(fi);
+		fi.close();
+	}
+
+
+  public void f() {
+	  
+  }
+}
